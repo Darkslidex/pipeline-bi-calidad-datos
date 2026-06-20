@@ -1,0 +1,32 @@
+# ── Datos: NUNCA se versionan (pueden contener información sensible) ──
+data/
+*.csv
+*.xlsx
+*.parquet
+
+# ── Secretos y configuración local ──
+.env
+.env.*
+!.env.example
+secrets/
+*.pem
+*.key
+
+# ── Artefactos generados por el pipeline ──
+snapshots/
+quality_reports/
+markers/
+
+# ── Python ──
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+*.egg-info/
+
+# ── Sistema operativo / editor ──
+.DS_Store
+.idea/
+.vscode/

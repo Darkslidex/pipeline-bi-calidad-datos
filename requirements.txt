@@ -1,0 +1,7 @@
+# Dependencias del pipeline de calidad de datos BI
+# Probado con Python 3.10+
+
+pandas>=2.0,<3.0          # transformación de los datasets (hechos y dimensiones)
+pydantic>=2.5,<3.0        # validación de contratos de datos antes de procesar
+python-dotenv>=1.0,<2.0   # carga de configuración desde .env (separación de secretos)
+pytest>=7.4,<9.0          # suite de pruebas del cleaner y de la auditoría

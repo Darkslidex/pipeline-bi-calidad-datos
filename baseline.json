@@ -1,0 +1,14 @@
+{
+  "corrida_referencia": "baseline-inicial",
+  "fecha": "2026-06-20",
+  "descripcion": "Valores de referencia de una corrida sana. La auditoria compara el score global actual contra este baseline y degrada el veredicto a DRIFT si cae mas que la tolerancia configurada (TOLERANCIA_DRIFT_BASELINE).",
+  "scores": {
+    "global": 100.0,
+    "Completeness": 100.0,
+    "Validity": 100.0,
+    "Reasonability": 100.0,
+    "Uniqueness": 100.0,
+    "Consistency": 100.0,
+    "Currency": 100.0
+  }
+}
